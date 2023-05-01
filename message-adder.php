@@ -26,7 +26,7 @@
                 <h4 class="text-center" style="color: #a27b5c; padding: 20px 0;">Tulis Pesan:</h4>
             </header>
             <p>
-                <textarea style="background-color: #dcd7c9;" name="Pesan" cols="50" rows="6"></textarea>
+                <textarea style="background-color: #dcd7c9;" name="Pesan" cols="50" rows="10"></textarea>
             </p>
             <p class="d-flex justify-content-center" style="padding-top: 20px;">
                 <input class="btn btn-*" style="padding: 6px; background-color: #a27b5c; color: #2c3639; border-color: #a27b5c;" type="submit" value="submit" name="submit">

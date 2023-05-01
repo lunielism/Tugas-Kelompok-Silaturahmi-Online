@@ -7,6 +7,8 @@
     <title>Tampilan Pesan</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+    </style>
 </head>
 <body style="padding: 80px 90px 20px 90px; background-color: #2c3639;">
 
@@ -15,7 +17,7 @@
     </header>
     <br>
 
-    <table class="table table-bordered table-hover" style="background-color: #2c3639; margin: auto; border-color: #dcd7x9;" border="1">
+    <table class="table table-bordered table-hover-dark" style="background-color: #2c3639; margin: auto; border-color: #dcd7c9;" border="1">
     <thead class="thead-dark">
         <tr style="color: #a27b5c;">
             <th>No</th>

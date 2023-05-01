@@ -41,7 +41,7 @@ if( mysqli_num_rows($query) < 1 ){
             </header>
             <input type="hidden" name="id" value="<?php echo $siswa['id'] ?>" />
             <p>
-                <textarea style="background-color: #dcd7c9;" name="Pesan" cols="30" rows="10"></textarea>
+                <textarea style="background-color: #dcd7c9;" name="Pesan" cols="50" rows="10"></textarea>
             </p>
             <p class="d-flex justify-content-center" style="padding-top: 20px;">
                 <input class="btn btn-*" style="padding: 6px; background-color: #a27b5c; color: #2c3639; border-color: #a27b5c;" type="submit" value="submit" name="submit">
