@@ -6,73 +6,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WEB Web Silaturahmi</title>
     <style>
-    body {
-        background: url(home.jpg) no-repeat center center fixed;
-        background-size: cover;
-        background-color: grey;
-        background-blend-mode: multiply;
-        text-align: center;
-        margin: 0;
-        padding: 0;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    .container {
-        max-width: 800px;
-        margin: auto;
-        padding: 20px;
-        margin-top: 15%;
-        margin-bottom: 11%;
-    }
+    /* Main styles */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(home.jpg) no-repeat center center fixed;
+  background-size: cover;
+  background-color: #f3f3f3;
+  font-family: 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-    header {
-        text-align: center;
-        color: white;
-        background-color: rgba(162,123,92, 0.6);
-        padding: 10px;
-        border-radius: 10px;
-        margin-bottom: 20px;
-        background-blend-mode: multiply;
-    }
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 50px 20px;
+  text-align: center;
+}
 
-    h1 {
-        margin: 0;
-        font-size: 5rem;
-        line-height: 1.5;
-    }
+header {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+}
 
-    h2{
-        font-size: 1.5rem;
-    }
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
 
-    nav ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-    }
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    nav li {
-        margin: 0 30px;
-    }
+nav li {
+  margin: 0 20px;
+}
 
-    nav a {
-        display: block;
-        text-decoration: none;
-        color: #a27b5c;
-        font-size: 2.5rem;
-        font-weight: bold;
-        padding: 10px;
-        border-radius: 10px;
-        background-color: #dcd7c9;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
+nav a {
+  display: block;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #a27b5c;
+  color: #fff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
 
-    nav a:hover {
-        background-color: #a27b5c;
-        color: white;
-    }
+nav a:hover {
+  background-color: #874a33;
+}
+
+/* Remove blur in background */
+header:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(home.jpg) no-repeat center center fixed;
+  background-size: cover;
+  z-index: -1;
+  filter: blur(8px);
+}
+
 
 </style>
 

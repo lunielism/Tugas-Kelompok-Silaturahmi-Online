@@ -70,13 +70,62 @@
         color: white;
     }
 
+/* menambahkan efek bayangan pada header */
+header {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* memberikan padding pada list item di navigasi */
+nav li {
+    padding: 10px;
+}
+
+/* membuat garis bawah pada setiap link navigasi ketika di-hover */
+nav a:hover {
+    border-bottom: 2px solid white;
+}
+
+/* mengatur tampilan judul dan deskripsi pada link navigasi */
+nav h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    margin-bottom: 5px;
+    color: white;
+}
+
+/* mengatur tampilan judul halaman */
+h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* mengatur tampilan button Register */
+nav a:first-child {
+    background-color: #a27b5c;
+    color: white;
+}
+
+/* mengatur tampilan button Log In */
+nav a:last-child {
+    background-color: #dcd7c9;
+    color: #a27b5c;
+    border: 2px solid #a27b5c;
+}
+
+/* menambahkan efek transisi ketika link navigasi di-hover */
+nav a {
+    transition: all 0.3s ease-in-out;
+}
+
 </style>
 
 </head>
 <body>
 <div class="container">
     <header>
-        <h1>Web Silaturahmi</h1>
+        <h1>Akses Admin
+        </h1>
+</br>
+
         <nav>
             <ul>
             <li>
